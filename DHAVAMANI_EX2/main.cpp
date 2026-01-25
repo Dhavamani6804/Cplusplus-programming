@@ -59,7 +59,6 @@ public:
 };
 
 int main() {
-    cout << "CAR INFORMATION PROGRAM" << endl;
     cout << endl;
     
     cout << "1. Creating car using default constructor:" << endl;
@@ -82,9 +81,6 @@ int main() {
     {
         Car car4("Corolla", "Toyota", 2021, 22000.25);
         car4.displayInfo();
-    }
-    
-    cout << "Program ending..." << endl;
-    
+    }    
     return 0;
 }
